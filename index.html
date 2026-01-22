@@ -248,11 +248,14 @@
        class="viber-btn">
        Написати у Viber
     </a>
-    
-<a href="https://viber.click/380506639794" 
-   class="viber-float" 
-   target="_blank" 
-   aria-label="Написати у Viber">
+
+    <a href="https://viber.click/380506639794"
+   class="viber-float"
+   target="_blank"
+   onclick="gtag('event', 'viber_click', {
+     event_category: 'contact',
+     event_label: 'Floating Viber Button'
+   });">
    Viber
 </a>
 
@@ -270,5 +273,6 @@
 </body>
 
 </html>
+
 
 
